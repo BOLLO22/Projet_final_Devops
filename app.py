@@ -3,8 +3,7 @@ from pages.scraping import scraping_bp
 from pages.analysis import analysis_bp
 from pages.dashboard import dashboard_bp
 from pages.evaluation import evaluation_bp
-
-
+from pages.scraping import scraping_bp
 
 app = Flask(__name__)
 
